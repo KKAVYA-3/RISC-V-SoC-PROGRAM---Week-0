@@ -70,11 +70,11 @@ make config-gcc
 make
 sudo make install
 ```
-# Check
+## Check
 ```
 yosys --version
 ```
-##Icarus Verilog
+## Icarus Verilog
 ```
 sudo apt-get update
 sudo apt-get install iverilog
@@ -86,7 +86,7 @@ sudo apt-get update
 sudo apt-get install gtkwave
 gtkwave --version
 ```
-##NgSpice
+## NgSpice
 ```
 tar -zxvf ngspice-37.tar.gz
 cd ngspice-37
@@ -138,4 +138,6 @@ docker run hello-world
 | **NgSpice**    | Analog / mixed-signal simulation  | ✅ Built & running    |
 | **Magic**      | Layout / basic DRC checks         | ✅ Installed          |
 | **OpenLane**   | Full RTL → GDSII physical design  | ⚙️ Setup ongoing      |
+
+
 Maintained by K Kavya
