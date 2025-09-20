@@ -56,7 +56,7 @@ Here are the tools I got installed:
 - Magic (layout viewer / simple DRC)  
 - OpenLane (RTL-to-GDSII flow)  
 
-### Tool Installation Workflow
+## Tool Installation Workflow
 
 ## Yosys
 ```
@@ -128,6 +128,7 @@ sudo usermod -aG docker $USER
 sudo reboot
 docker run hello-world
 ```
+
 ## 🛠️ Progress Summary
 
 | Tool           | Purpose                           | Status               |
